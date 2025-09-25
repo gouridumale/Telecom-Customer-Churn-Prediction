@@ -55,17 +55,13 @@ This project develops a complete machine learning workflow to predict customer c
 
 Uber_Supply_Demand_Optimization/
 
+data/ └── uber_supply_demand.csv        # dataset (keep raw data here)
 │
-├── data/
-│   └── uber_supply_demand.csv        # dataset (keep raw data here)
+notebook/ └── Uber_Supply_Demand.ipynb      # your single notebook with all steps
 │
-├── notebook/
-│   └── Uber_Supply_Demand.ipynb      # your single notebook with all steps
-│
-├── outputs/
-│   ├── figures/                      # export plots as PNG/JPEG
-│   └── results.csv                   # any computed results (optional)
-│
-├── requirements.txt                  # list of Python libraries (pandas, numpy, matplotlib)
-└── README.md                         # overview of the project
+outputs/ ├── figures/                      # export plots as PNG/JPEG
+         |── results.csv                   # any computed results (optional)
+
+requirements.txt                  # list of Python libraries (pandas, numpy, matplotlib)
+README.md                         # overview of the project
 
